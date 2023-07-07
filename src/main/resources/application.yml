@@ -12,13 +12,3 @@ spring:
   jpa:
     database: mysql
     open-in-view: false
-
-logging:
-  config: classpath:log4j2.xml
-  level:
-    org:
-      hibernate:
-        sql: DEBUG
-        type:
-          descriptor:
-            sql: trace
